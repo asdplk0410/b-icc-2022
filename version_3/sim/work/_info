@@ -1,0 +1,58 @@
+m255
+K4
+z2
+!s11f vlog 2021.1 2021.02, Feb  3 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/ICC/B_2022/version_2/sim
+vJAM
+Z0 !s110 1648719669
+!i10b 1
+!s100 38l?CeUARd=aW1[2Cgo7m3
+IGl7[n:`:Uci;iWIYKZnck3
+Z1 dE:/ICC/B_2022/version_3/sim
+w1648719547
+8E:/ICC/B_2022/version_3/JAM.v
+FE:/ICC/B_2022/version_3/JAM.v
+!i122 111
+L0 1 409
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OV;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1648719668.000000
+!s107 E:/ICC/B_2022/version_3/JAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/ICC/B_2022/version_3/JAM.v|
+!i113 1
+o-work work
+Z4 tCvgOpt 0
+n@j@a@m
+vtestfixture
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R0
+!i10b 1
+!s100 a]gE?Bb@oYE7L^N^?9<GC1
+IR?AgOSCz53?Na8=jQEQ9_2
+S1
+R1
+w1648621060
+8E:/ICC/B_2022/version_3/tb.sv
+FE:/ICC/B_2022/version_3/tb.sv
+!i122 112
+L0 18 176
+R2
+R3
+r1
+!s85 0
+31
+!s108 1648719669.000000
+!s107 E:/ICC/B_2022/version_3/tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/ICC/B_2022/version_3/tb.sv|
+!i113 1
+o-work work -sv
+R4

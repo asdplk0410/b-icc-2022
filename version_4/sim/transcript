@@ -1,0 +1,89 @@
+# Compile of JAM.v was successful.
+# Compile of tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.testfixture
+# vsim -gui work.testfixture 
+# Start time: 17:32:28 on Mar 31,2022
+# Loading sv_std.std
+# Loading work.testfixture
+# Loading work.JAM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (9) for port 'MinCost'. The port definition is at: E:/ICC/B_2022/version_4/JAM.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testfixture/u_JAM File: E:/ICC/B_2022/version_4/tb.sv Line: 34
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$fsdbDumpfile' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /testfixture File: E:/ICC/B_2022/version_4/tb.sv Line: 50
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$fsdbDumpvars' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /testfixture File: E:/ICC/B_2022/version_4/tb.sv Line: 51
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$fsdbDumpMDA' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /testfixture File: E:/ICC/B_2022/version_4/tb.sv Line: 52
+add wave -position end  sim:/testfixture/u_JAM/IDLE
+add wave -position end  sim:/testfixture/u_JAM/RECV
+add wave -position end  sim:/testfixture/u_JAM/SORT
+add wave -position end  sim:/testfixture/u_JAM/OUT
+add wave -position end  sim:/testfixture/u_JAM/SORT0
+add wave -position end  sim:/testfixture/u_JAM/SORT1
+add wave -position end  sim:/testfixture/u_JAM/SORT2
+add wave -position end  sim:/testfixture/u_JAM/SORT3
+add wave -position end  sim:/testfixture/u_JAM/DONE
+add wave -position end  sim:/testfixture/u_JAM/CLK
+add wave -position end  sim:/testfixture/u_JAM/RST
+add wave -position end  sim:/testfixture/u_JAM/W
+add wave -position end  sim:/testfixture/u_JAM/J
+add wave -position end  sim:/testfixture/u_JAM/Cost
+add wave -position end  sim:/testfixture/u_JAM/MatchCount
+add wave -position end  sim:/testfixture/u_JAM/MinCost
+add wave -position end  sim:/testfixture/u_JAM/Valid
+add wave -position end  sim:/testfixture/u_JAM/ps
+add wave -position end  sim:/testfixture/u_JAM/ns
+add wave -position end  sim:/testfixture/u_JAM/ps_sort
+add wave -position end  sim:/testfixture/u_JAM/ns_sort
+add wave -position end  sim:/testfixture/u_JAM/index_i
+add wave -position end  sim:/testfixture/u_JAM/permu
+add wave -position end  sim:/testfixture/u_JAM/permu_temp
+add wave -position end  sim:/testfixture/u_JAM/cost_acc
+add wave -position end  sim:/testfixture/u_JAM/pivot
+add wave -position end  sim:/testfixture/u_JAM/min_max
+add wave -position end  sim:/testfixture/u_JAM/index_mm
+add wave -position end  sim:/testfixture/u_JAM/flag_fst_swap
+add wave -position end  sim:/testfixture/u_JAM/flag_done
+add wave -position end  sim:/testfixture/u_JAM/mode
+add wave -position end  sim:/testfixture/u_JAM/i
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$fsdbDumpfile'
+#    Time: 0 ps  Iteration: 0  Process: /testfixture/#INITIAL#49 File: E:/ICC/B_2022/version_4/tb.sv Line: 50
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$fsdbDumpvars'
+#    Time: 0 ps  Iteration: 0  Process: /testfixture/#INITIAL#49 File: E:/ICC/B_2022/version_4/tb.sv Line: 51
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$fsdbDumpMDA'
+#    Time: 0 ps  Iteration: 0  Process: /testfixture/#INITIAL#49 File: E:/ICC/B_2022/version_4/tb.sv Line: 52
+# *******************************
+# ** Simulation Start          **
+# *******************************
+# PATTERN:   1
+# -------------- Cost Table --------------
+# Jobs       0   1   2   3   4   5   6   7
+# worker0:  11  25  53  41  59  32  25  59
+# worker1:   4  11  25  11  59  31  53  11
+# worker2:  11  59  15  11  15  15  53  53
+# worker3:   4  59  32  34  53  41  34  59
+# worker4:  15  32  41  34   4  59  34  32
+# worker5:  41  59  59   4   4  41  34  34
+# worker6:  53  31  25  41  59  32  31  53
+# worker7:  11  31  25  11  34  34  53  32
+# ----------------------------------------------------------------------
+# Get Valid at cycle:    403277
+# receive MinCost/MatchCount= 119/ 3 , golden MinCost/MatchCount= 119/ 3
+# ----------------------------------------------------------------------
+# *************************
+# **  FUNCTION  CORRECT  **
+# *************************
+# 
+# ** Note: $finish    : E:/ICC/B_2022/version_4/tb.sv(186)
+#    Time: 4032765 ns  Iteration: 1  Instance: /testfixture
+# 1
+# Break in Module testfixture at E:/ICC/B_2022/version_4/tb.sv line 186
+# ** Error: ¦¨³©¡
+#        Unable to replace existing ini file (E:/ICC/B_2022/version_4/sim/prj4.mpf).  File can not be renamed.
+# ** Error: ¦¨³©¡
+#        Unable to replace existing ini file (E:/ICC/B_2022/version_4/sim/prj4.mpf).  File can not be renamed.
+# End time: 17:34:33 on Mar 31,2022, Elapsed time: 0:02:05
+# Errors: 5, Warnings: 6
+# Closing project E:/ICC/B_2022/version_4/sim/prj4.mpf

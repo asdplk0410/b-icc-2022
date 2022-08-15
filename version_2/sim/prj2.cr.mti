@@ -1,0 +1,15 @@
+E:/ICC/B_2022/version_2/JAM.v {1 {vlog -work work -stats=none E:/ICC/B_2022/version_2/JAM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module JAM
+
+Top level modules:
+	JAM
+
+} {} {}} E:/ICC/B_2022/version_2/tb.sv {1 {vlog -work work -sv -stats=none E:/ICC/B_2022/version_2/tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module testfixture
+
+Top level modules:
+	testfixture
+
+} {} {}}
